@@ -1,0 +1,24 @@
+{
+  "name": "@playcast/api",
+  "version": "0.0.0",
+  "main": "./dist",
+  "dependencies": {
+    "@nexus/schema": "^0.14.0",
+    "@nolanrigo/prettier-config": "^3.0.0",
+    "apollo-server": "^2.16.0",
+    "apollo-server-fastify": "^2.16.0",
+    "cross-fetch": "^3.0.5",
+    "dataloader": "^2.0.0",
+    "fastify": "^2.0.0",
+    "graphql": "^14.0.0",
+    "graphql-scalars": "^1.2.6",
+    "node-vibrant": "^3.1.5",
+    "spotify-web-api-node": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "@types/spotify-web-api-node": "^4.0.1",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  }
+}

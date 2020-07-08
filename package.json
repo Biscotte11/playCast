@@ -1,0 +1,13 @@
+{
+  "name": "playcast",
+  "private": true,
+  "devDependencies": {
+    "@nolanrigo/prettier-config": "^3.0.0",
+    "prettier": "^2.0.5"
+  },
+  "prettier": "@nolanrigo/prettier-config",
+  "workspaces": [
+    "podcast2js",
+    "api"
+  ]
+}
