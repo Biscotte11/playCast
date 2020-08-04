@@ -109,7 +109,6 @@ async function findASpotifyShow(
   for (const market of markets) {
     const result = (await s.search(title, ["show" as any], {
       market,
-      limit: 1,
     })) as any;
 
     const show = result.body.shows.items.find(function (item: any) {
