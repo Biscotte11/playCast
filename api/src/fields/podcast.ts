@@ -145,7 +145,7 @@ export const PodcastPlayers = objectType({
     t.url("applePodcast", {
       description: "",
       async resolve({ podcast }, _, { getApplePodcast }) {
-        const podcastUrl = await getApplePodcast(podcast.title);
+        const podcastUrl = await getApplePodcast.load(podcast.title);
 
         return podcastUrl;
       },
