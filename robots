@@ -1,0 +1,42 @@
+
+
+User_agent : googlebotDisallow: /devis_presta_partenaire
+Disallow: /devis
+Disallow: /redirect
+Disallow: /devis
+Disallow: /devis_presta_partenaire
+Disallow: /devis_presta_partenaire.php
+Disallow: /happyTech.php
+Disallow: /cas-bnp.php
+Disallow: /devis.php
+Disallow: /offre-immobilier.php
+Disallow: /index.php
+Disallow: /cas-morgan-stanley.php
+Disallow: /confidentialite.php
+Disallow: /offre-entreprise.php
+Disallow: /offre-startup.php
+Disallow: /cas-yvelines.php
+Disallow: /cas-smart-services.php
+Disallow: /conciergerie-entreprise.php
+
+
+Disallow: /services
+Disallow: /index
+Disallow: /cas-bnp
+Disallow: /offre-startup
+Disallow: /offre-immobilier
+Disallow: /www.fidensio.com/cas-smart-services
+Disallow: /www.fidensio.com/cas-yvelinesDisallow: /www.fidensio.com/offre-entreprise
+Disallow: /www.fidensio.com/confidentialite
+Disallow: /www.fidensio.com/cas-morgan-stanley
+Allow: /index
+Allow: /servicesAllow: /cas-smart-services
+Allow: /cas-morgan-stanley
+Allow: /offre-entreprise
+Allow: /cas-bnp
+Allow: /offre-immobilier
+Allow: /cas-yvelines
+Allow: /confidentialite
+Allow: /offre-startup
+Allow: /happyTech
+Allow: /services.php
